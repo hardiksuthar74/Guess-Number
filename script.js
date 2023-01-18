@@ -34,12 +34,10 @@ document.querySelector('.check').addEventListener('click', function(){
         document.querySelector('body').style.backgroundColor = '#60b347';
         document.querySelector('.number').style.width = '30rem'
         document.querySelector('.number').textContent = secretNumber;
-        displayHighscore(highScore);
-        // document.querySelector('.highscore').textContent = highScore;
+        displayHighscore(highScore);        
         if (score > highScore){
             highScore = score
-            displayHighscore(score);
-            // document.querySelector('.highscore').textContent = score; 
+            displayHighscore(score);            
         };
         
     } 
